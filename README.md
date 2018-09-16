@@ -1,2 +1,2 @@
-# Mr-Blamo-Repo
-Mr Blamo's repository for Video Addons
+# Nusch-Repo
+Nusch's repository for Video Addons
