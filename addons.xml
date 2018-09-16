@@ -358,12 +358,12 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>
 
-<addon id="plugin.video.nusch" version="1.2.0" name="Nusch" provider-name="Nusch">
+<addon id="plugin.video.Nusch" version="1.2.0" name="Nusch" provider-name="Nusch">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.module.nusch" />
-		<import addon="script.nusch.artwork" version="1.0.0" />
-		<import addon="script.nusch.metadata" version="1.0.0" />
+		<import addon="script.module.Nusch" />
+		<import addon="script.Nusch.artwork" version="1.0.0" />
+		<import addon="script.Nusch.metadata" version="1.0.0" />
 		<import addon="script.module.resolveurl" />
 		<import addon="script.module.requests" />
 		<import addon="script.module.metahandler" version="1.0.0" />
@@ -394,7 +394,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>
 
-<addon id="script.module.nusch" name="Nusch Module" version="1.2.4" provider-name="Nusch">
+<addon id="script.module.Nusch" name="Nusch Module" version="1.2.4" provider-name="Nusch">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -410,7 +410,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>
 
-<addon id="script.nusch.artwork" version="1.0.6" name="Nusch Artwork" provider-name="Nusch">
+<addon id="script.Nusch.artwork" version="1.0.6" name="Nusch Artwork" provider-name="Nusch">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
@@ -426,7 +426,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>
 
-<addon id="script.nusch.metadata" version="1.0.1" name="Nusch Metadata" provider-name="Nusch">
+<addon id="script.Nusch.metadata" version="1.0.1" name="Nusch Metadata" provider-name="Nusch">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
