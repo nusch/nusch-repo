@@ -377,7 +377,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
     </extension>
 </addon>
 
-<addon id="script.tvguide.fullscreen" name="TV Guide Nusch"
+<addon id="script.tvguide.fullscreen" name="Nusch TV Guide"
 version="1.0.0"
 provider-name="Nusch">
     <requires>
