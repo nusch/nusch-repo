@@ -378,7 +378,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
 </addon>
 
 <addon id="script.tvguide.fullscreen" name="Nusch TV Guide"
-version="1.0.0"
+version="1.0.1"
 provider-name="Nusch">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
