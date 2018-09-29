@@ -109,6 +109,21 @@
         </extension>
 </addon>
 
+<addon id="script.module.liveresolver" name="LiveResolver" version="0.1.49" provider-name="natko1412">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.beautifulsoup" version="3.2.1"/>
+		<import addon="script.module.requests"/>
+		<import addon="script.module.addon.common" version="2.0.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib"/>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Resolve common live video host URL's to be playable in XBMC/Kodi + find links embeded in sites.</summary>
+		<description lang="en"></description>
+	</extension>
+</addon>
+
 <addon id="repository.colossus" name="[COLOR gold]Colossus Repository[/COLOR]" version="999.999.9" provider-name="Colossal">
     <extension point="xbmc.addon.repository" name="[COLOR gold]Colossus Repository[/COLOR]">
     <dir>
@@ -331,6 +346,43 @@ provider-name="Nusch">
         <news>
         </news>
     </extension>
+</addon>
+
+<addon id="plugin.video.ccloudtv"
+       name="cCloud TV"
+       version="1.5.6"
+       provider-name="rattlehead">
+  <requires>
+    <import addon="xbmc.python" version="2.19.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver"  version="3.0.0" optional="true"/>
+	<import addon="script.module.liveresolver"  version="0.1.49"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="script.common.plugin.cache" version="2.5.5"/>
+    <import addon="script.tvaddons.debug.log" optional="true" />     
+</requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>All the best from cCloud TV</summary>
+    <description>cCloud is an open source cloud based social IPTV service. It is built by the community for the community, where streaming is just a click away. Just click, play and stream. Yes, it's that simple. Just go to [COLOR blue]http://ccloudtv.org[/COLOR] and enjoy:) Please report any channels that are down here [COLOR blue]http://www.tiny.cc/reportchs[/COLOR] Users can now check servers status which can be found at [COLOR blue]http://ccloudtv.org/status[/COLOR]
+    </description>
+	<license>http://www.gnu.org/licenses/</license>
+    <forum>http://ccloudtv.org/forum</forum>
+    <website>http://ccloudtv.org</website>
+    <website>http://facebook.com/ccloudapp</website>
+    <website>http://twitter.com/ccloudapp</website>
+    <email></email>
+    <platform>all</platform>
+  </extension>
 </addon>
 
 </addons>
