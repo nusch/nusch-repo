@@ -10,7 +10,6 @@ provider-name="Nusch">
         <import addon="script.module.pil" />
         <import addon="script.module.beautifulsoup4" />
 		<import addon="plugin.video.tvone1111" />
-		<import addon="plugin.video.ccloudtv" />
     </requires>
     <extension point="xbmc.python.script" library="addon.py">
             <provides>executable</provides>
