@@ -173,7 +173,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="plugin.video.Nusch" version="1.2.1" name="Nusch" provider-name="Nusch">
+<addon id="plugin.video.Nusch" version="1.2.2" name="Nusch" provider-name="Nusch">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.Nusch" />
@@ -183,7 +183,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<import addon="script.module.requests" />
 		<import addon="script.module.metahandler" version="1.0.0" />
         <import addon="plugin.video.youtube"/>
-		<import addon="plugin.video.live247" />
+		<import addon="plugin.video.tvone1111" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -302,7 +302,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
 </addon>
 
 <addon id="script.tvguide.fullscreen" name="Nusch TV Guide"
-version="1.0.1"
+version="1.0.2"
 provider-name="Nusch">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
@@ -311,7 +311,7 @@ provider-name="Nusch">
         <import addon="script.module.dateutil" version="2.4.2" />
         <import addon="script.module.pil" />
         <import addon="script.module.beautifulsoup4" />
-		<import addon="plugin.video.live247" />
+		<import addon="plugin.video.tvone1111" />
 		<import addon="plugin.video.ccloudtv" />
     </requires>
     <extension point="xbmc.python.script" library="addon.py">

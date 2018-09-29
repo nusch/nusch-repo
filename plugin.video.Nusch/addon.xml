@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.Nusch" version="1.2.1" name="Nusch" provider-name="Nusch">
+<addon id="plugin.video.Nusch" version="1.2.2" name="Nusch" provider-name="Nusch">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.Nusch" />
@@ -9,7 +9,7 @@
 		<import addon="script.module.requests" />
 		<import addon="script.module.metahandler" version="1.0.0" />
         <import addon="plugin.video.youtube"/>
-		<import addon="plugin.video.live247" />
+		<import addon="plugin.video.tvone1111" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>

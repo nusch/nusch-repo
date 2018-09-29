@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="script.tvguide.fullscreen" name="Nusch TV Guide"
-version="1.0.1"
+version="1.0.2"
 provider-name="Nusch">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
@@ -9,7 +9,7 @@ provider-name="Nusch">
         <import addon="script.module.dateutil" version="2.4.2" />
         <import addon="script.module.pil" />
         <import addon="script.module.beautifulsoup4" />
-		<import addon="plugin.video.live247" />
+		<import addon="plugin.video.tvone1111" />
 		<import addon="plugin.video.ccloudtv" />
     </requires>
     <extension point="xbmc.python.script" library="addon.py">
