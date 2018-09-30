@@ -353,6 +353,7 @@ provider-name="Nusch">
        provider-name="rattlehead">
   <requires>
     <import addon="xbmc.python" version="2.19.0"/>
+	<import addon="script.module.liveresolver" version="0.1.49"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.beautifulsoup4" />
@@ -361,7 +362,6 @@ provider-name="Nusch">
     <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" />
     <import addon="script.module.urlresolver"  version="3.0.0" optional="true"/>
-	<import addon="script.module.liveresolver" version="0.1.49"/>
 	<import addon="script.module.addon.common" />
 	<import addon="script.module.simplejson" version="3.3.0"/>
     <import addon="script.common.plugin.cache" version="2.5.5"/>
