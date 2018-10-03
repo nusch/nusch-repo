@@ -333,7 +333,7 @@ provider-name="Nusch">
     </extension>
     <extension point="xbmc.service" library="service.py" start="login"/>
     <extension point="xbmc.addon.metadata">
-        <description lang="en">Possibly the most powerful TV Guide in the world. ;) Thanks for the major contributions from: iainmacleod, im85288, RayW1986, bluezed, andy, Zomboided, tycoo, kjb86, Doctor-Eggs</description>
+        <description lang="en">TV Guide Fullscreen.  Possibly the most powerful TV Guide in the world. ;) Thanks for the major contributions from: iainmacleod, im85288, RayW1986, bluezed, andy, Zomboided, tycoo, kjb86, Doctor-Eggs</description>
         <disclaimer lang="en">Based on the original TV Guide addon by twinther, FTV Guide and Midraal's fork.</disclaimer>
         <language></language>
         <platform>all</platform>
@@ -349,11 +349,10 @@ provider-name="Nusch">
 
 <addon id="plugin.video.ccloudtv"
        name="cCloud TV"
-       version="1.5.7"
+       version="1.5.6"
        provider-name="rattlehead">
   <requires>
     <import addon="xbmc.python" version="2.19.0"/>
-	<import addon="script.module.liveresolver" version="0.1.49"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.beautifulsoup4" />
@@ -362,6 +361,7 @@ provider-name="Nusch">
     <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" />
     <import addon="script.module.urlresolver"  version="3.0.0" optional="true"/>
+	<import addon="script.module.liveresolver"  version="0.1.28"/>
 	<import addon="script.module.addon.common" />
 	<import addon="script.module.simplejson" version="3.3.0"/>
     <import addon="script.common.plugin.cache" version="2.5.5"/>
