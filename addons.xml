@@ -7,11 +7,6 @@
 			<datadir zip="true">https://raw.githubusercontent.com/nusch/nusch-repo/master/</datadir>
 		</dir>
 		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/iwannabelikemike/kvid-repo/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/iwannabelikemike/kvid-repo/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/iwannabelikemike/kvid-repo/master/</datadir>
-		</dir>
-		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
@@ -193,7 +188,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="plugin.video.Nusch" version="1.2.2" name="Nusch" provider-name="Nusch">
+<addon id="plugin.video.Nusch" version="1.2.3" name="Nusch" provider-name="Nusch">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.Nusch" />
@@ -230,7 +225,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>
 
-<addon id="script.module.Nusch" name="Nusch Module" version="1.2.7" provider-name="Nusch">
+<addon id="script.module.Nusch" name="Nusch Module" version="1.2.8" provider-name="Nusch">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -387,25 +382,6 @@ provider-name="Nusch">
     <email></email>
     <platform>all</platform>
   </extension>
-</addon>
-
-<addon id="plugin.video.sparkle" name="Sparkle" version="0.0.82" provider-name="iwannabelikemike">
-	<requires>
-		<import addon="xbmc.python" version="2.25.0"/>
-		<import addon="script.module.addon.common" />
-		<import addon="script.module.requests"  />
-		<import addon="script.module.beautifulsoup4"  />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Just a little sparkle.</summary>
-		<description lang="en">A small plugin for playing reddit acestreams
-		</description>
-		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
-		<platform>all</platform>
-	</extension>
 </addon>
 
 </addons>
