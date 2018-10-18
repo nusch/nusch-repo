@@ -56,6 +56,26 @@
 			<checksum>https://github.com/tvaddonsco/tva-release-repo/raw/master/addons.xml.md5</checksum>
 			<datadir zip="true">https://github.com/tvaddonsco/tva-release-repo/raw/master/</datadir>
 		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/turtlestv/zips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/turtlestv/zips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/turtlestv/zips/master/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/I-A-C/LambdaScrapersRepo/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/I-A-C/LambdaScrapersRepo/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/I-A-C/LambdaScrapersRepo/master/zips</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">http://repo.vaders.tv/repo/addons.xml</info>
+			<checksum>http://repo.vaders.tv/repo/addons.xml.md5</checksum>
+			<datadir zip="true">http://repo.vaders.tv/repo/</datadir> 
+		</dir>
+		<dir>
+			<info compressed="false">http://supremacy.org.uk/zip/plugin/addon.xml</info>
+			<checksum>http://supremacy.org.uk/zip/plugin/addons.xml.md5</checksum>
+			<datadir zip="true">http://supremacy.org.uk/zip/plugin/</datadir>
+		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en"></summary>
