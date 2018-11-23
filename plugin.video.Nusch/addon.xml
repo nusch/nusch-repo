@@ -10,7 +10,6 @@
 		<import addon="script.module.requests" />
 		<import addon="script.module.metahandler" version="1.0.0" />
         <import addon="plugin.video.youtube"/>
-		<import addon="plugin.video.tvone1111" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>

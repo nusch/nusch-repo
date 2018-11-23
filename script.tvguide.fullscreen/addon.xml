@@ -9,7 +9,6 @@ provider-name="Nusch">
         <import addon="script.module.dateutil" version="2.4.2" />
         <import addon="script.module.pil" />
         <import addon="script.module.beautifulsoup4" />
-		<import addon="plugin.video.tvone1111" />
     </requires>
     <extension point="xbmc.python.script" library="addon.py">
             <provides>executable</provides>
