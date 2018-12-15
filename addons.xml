@@ -81,9 +81,11 @@
 			<checksum>http://supremacy.org.uk/zip/plugin/addons.xml.md5</checksum>
 			<datadir zip="true">http://supremacy.org.uk/zip/plugin/</datadir>
 		</dir>
+		<dir>
 			<info compressed="false">http://github.com/darknessally/firerises/raw/master/addons.xml</info>
 			<checksum>http://github.com/darknessally/firerises/raw/master/addons.xml.md5</checksum>
 			<datadir zip="true">http://github.com/darknessally/firerises/raw/master/zips</datadir>
+		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en"></summary>
