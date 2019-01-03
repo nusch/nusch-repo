@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 '''
-    obd scraper for Exodus.
+    obd scraper for Exodus forks.
     Nov 9 2018 - Checked
     Oct 10 2018 - Cleaned and Checked
     Note: anyone that reads this should take a second and visit https://odb.to its pretty cool compared to most lol.

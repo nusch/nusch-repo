@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 '''
-    iwatchflixxyz scraper for Exodus.
+    iwatchflixxyz scraper for Exodus forks.
     Nov 9 2018 - Checked
     Oct 10 2018 - Cleaned and Checked
 

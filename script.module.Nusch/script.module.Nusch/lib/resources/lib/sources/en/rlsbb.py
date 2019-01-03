@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 '''
-    rlsbb scraper for Exodus.
+    rlsbb scraper for Exodus forks.
     Sep 5 2018 - Cleaned and Checked
 
     Updated and refactored by someone.

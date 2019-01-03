@@ -7,7 +7,7 @@
  # this stuff is worth it, you can buy me a beer in return. - Muad'Dib
  # ----------------------------------------------------------------------------
 #######################################################################
-# -Cleaned and Checked on 10-10-2018 by JewBMX in Exodus.
+# -Cleaned and Checked on 10-10-2018 by JewBMX in Yoda.
 
 import re,traceback,urllib,urlparse
 

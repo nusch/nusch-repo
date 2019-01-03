@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 '''
-    seriesfree scraper for Exodus.
+    seriesfree scraper for Exodus forks.
     Nov 9 2018 - Checked
 
     Updated and refactored by someone.
@@ -18,7 +18,7 @@ from resources.lib.modules import dom_parser
 
 class source:
     def __init__(self):
-        self.priority = 1
+        self.priority = 0
         self.language = ['en']
         self.domains = ['watchseriesfree.to','seriesfree.to']
         self.base_link = 'https://seriesfree.to'

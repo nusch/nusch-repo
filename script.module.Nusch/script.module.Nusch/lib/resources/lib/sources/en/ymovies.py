@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 '''
-    ymovies scraper for Exodus.
+    ymovies scraper for Exodus forks.
     Nov 9 2018 - Checked
 
     Updated and refactored by someone.

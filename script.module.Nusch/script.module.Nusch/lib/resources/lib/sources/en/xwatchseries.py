@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 '''
-    xwatchseries scraper for Exodus.
+    xwatchseries scraper for Exodus forks.
     Nov 9 2018 - Checked
 
     Updated and refactored by someone.

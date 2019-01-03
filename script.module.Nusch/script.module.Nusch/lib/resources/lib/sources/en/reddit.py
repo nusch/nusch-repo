@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 '''
-    reddit scraper for Exodus.
+    reddit scraper for Exodus forks.
     Nov 9 2018 - Checked
     Oct 11 2018 - Cleaned and Checked
 

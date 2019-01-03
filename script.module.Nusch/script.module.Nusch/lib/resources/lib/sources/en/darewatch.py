@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 '''
-    darewatch scraper for Exodus.
+    darewatch scraper for Exodus forks.
     Nov 9 2018 - Checked
     rev.3) Sep 19 2018 - Cleaned and Checked
     rev.2) Sep 18 2018 - Cleaned and Checked

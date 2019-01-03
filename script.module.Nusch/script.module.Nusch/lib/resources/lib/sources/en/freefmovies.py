@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 '''
-    freefmovies scraper for Exodus.
+    freefmovies scraper for Exodus forks.
     Nov 9 2018 - Checked
 
     Updated and refactored by someone.

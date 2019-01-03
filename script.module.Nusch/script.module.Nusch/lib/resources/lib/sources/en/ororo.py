@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 '''
-    ororo scraper for Exodus.
+    ororo scraper for Exodus forks.
     Nov 9 2018 - Checked
 
     Updated and refactored by someone.
@@ -29,7 +29,7 @@ class source:
         self.password = control.setting('ororo.pass')
         self.headers = {
         'Authorization': 'Basic %s' % base64.b64encode('%s:%s' % (self.user, self.password)),
-        'User-Agent': 'Exodus for Kodi'
+        'User-Agent': 'Placenta for Kodi'
         }
 
 

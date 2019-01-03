@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 '''
-    vidics scraper for Exodus.
+    vidics scraper for Exodus forks.
     Nov 9 2018 - Checked
     Oct 23 2018 - Cleaned and Checked
 

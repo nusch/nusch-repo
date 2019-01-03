@@ -8,9 +8,9 @@
  # ----------------------------------------------------------------------------
 #######################################################################
 
-# Addon Name: Exodus
-# Addon id: plugin.video.exodus
-# Addon Provider: Exodus
+# Addon Name: Yoda
+# Addon id: plugin.video.Yoda
+# Addon Provider: Supremacy
 
 import re, urlparse, urllib, base64
 

@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 '''
-    Primewire-variant scraper for Exodus.
+    Primewire-variant scraper for Exodus forks.
     Nov 9 2018 - Checked
     Sep 23 2018 - Cleaned and Checked.
 

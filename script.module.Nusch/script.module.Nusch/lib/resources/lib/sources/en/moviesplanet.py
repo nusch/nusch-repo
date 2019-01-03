@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 '''
-    moviesplanet scraper for Exodus.
+    moviesplanet scraper for Exodus forks.
     Nov 9 2018 - Checked
 
     Updated and refactored by someone.

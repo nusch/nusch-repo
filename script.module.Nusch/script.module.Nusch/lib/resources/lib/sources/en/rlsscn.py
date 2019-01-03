@@ -8,9 +8,9 @@
  # ----------------------------------------------------------------------------
 #######################################################################
 
-# Addon Name: Exodus
-# Addon id: plugin.video.exodus
-# Addon Provider: Exodus
+# Addon Name: Placenta
+# Addon id: plugin.video.placenta
+# Addon Provider: Mr.Blamo
 
 import requests, re, traceback
 from bs4 import BeautifulSoup

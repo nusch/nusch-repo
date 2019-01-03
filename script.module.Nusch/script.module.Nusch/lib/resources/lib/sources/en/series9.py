@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 '''
-    series9 scraper for Exodus.
+    series9 scraper for Exodus forks.
     Nov 9 2018 - Checked
 
     Updated and refactored by someone.
@@ -17,10 +17,10 @@ class source:
     def __init__(self):
         self.priority = 1
         self.language = ['en']
-        self.domains = ['series9.io','series9.co','seriesonline.io','series9.io','gomovies.pet']
-        self.base_link = 'https://series9.io'
+        self.domains = ['seriesonline.io','series9.io','gomovies.pet']
+        self.base_link = 'https://series9.co/'
         self.search_link = '/movie/search/%s'
-        
+
     def matchAlias(self, title, aliases):
         try:
             for alias in aliases:
