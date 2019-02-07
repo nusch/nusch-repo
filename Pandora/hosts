@@ -1,0 +1,5 @@
+#          Pandora Ad Blocking
+0.0.0.0 pubads.g.doubleclick.net
+0.0.0.0 adserver.pandora.com
+0.0.0.0 pixel.adsafeprotected.com
+0.0.0.0 lt.andomedia.com
