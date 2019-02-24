@@ -1,7 +1,5 @@
 '''
-    Created by others
-    Refactored for exodusscrapers
-    Nov 20 2018
+    Torrentapi
 '''
 
 import re, requests, xbmc
@@ -15,9 +13,9 @@ class source:
         self.language = ['en']
         self.domain = 'https://Torrentapi.top'
         self.api_key = PremiumizeMeResolver.get_setting('password')
-        self.tvsearch = 'https://torrentapi.org//pubapi_v2.php?app_id=exodus&mode=search&search_string=%s&category=tv&ranked=0&token=%s'
-        self.msearch = 'https://torrentapi.org//pubapi_v2.php?app_id=exodus&mode=search&search_string=%s&category=movies&ranked=0&token=%s'
-        self.tokenta = 'https://torrentapi.org//pubapi_v2.php?app_id=exodus&get_token=get_token'
+        self.tvsearch = 'https://torrentapi.org//pubapi_v2.php?app_id=poached&mode=search&search_string=%s&category=tv&ranked=0&token=%s'
+        self.msearch = 'https://torrentapi.org//pubapi_v2.php?app_id=poached&mode=search&search_string=%s&category=movies&ranked=0&token=%s'
+        self.tokenta = 'https://torrentapi.org//pubapi_v2.php?app_id=poached&get_token=get_token'
         self.checkc = 'https://www.premiumize.me/api/torrent/checkhashes?apikey=%s&hashes[]=%s&apikey=%s'
         self.pr_link = 'https://www.premiumize.me/api/transfer/directdl?apikey=%s&src=magnet:?xt=urn:btih:%s'
 
