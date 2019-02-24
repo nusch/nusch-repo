@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.Nusch" version="1.2.5" name="Nusch" provider-name="Nusch">
+<addon id="plugin.video.Nusch" version="1.2.6" name="Nusch" provider-name="Nusch">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.Nusch" />
-		<import addon="script.Nusch.artwork" version="1.0.0" />
-		<import addon="script.Nusch.metadata" version="1.0.0" />
+		<import addon="script.Nusch.artwork" />
+		<import addon="script.Nusch.metadata" />
 		<import addon="script.module.commoncore" />
 		<import addon="script.module.resolveurl" />
+		<import addon="script.module.lambdascrapers" />
+		<import addon="script.module.civitasscrapers" />
 		<import addon="script.module.requests" />
 		<import addon="script.module.metahandler" version="1.0.0" />
-        <import addon="plugin.video.youtube"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
-        <provides>audio</provides>
 	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup"/>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">nusch</summary>
 		<description>Covenant Fork from Echo/Colossus era.</description>
