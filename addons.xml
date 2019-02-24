@@ -1,5 +1,5 @@
 <addons>
-<addon id="repository.nusch" name="[COLOR red]Nusch Repo[/COLOR]" version="1.0.3" provider-name="Nusch">
+<addon id="repository.nusch" name="[COLOR red]Nusch Repo[/COLOR]" version="1.0.4" provider-name="Nusch">
 	<extension point="xbmc.addon.repository" name="Nusch">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/nusch/nusch-repo/master/addons.xml</info>
