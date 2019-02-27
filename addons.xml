@@ -63,7 +63,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="plugin.video.Nusch" version="1.3.1" name="Nusch" provider-name="Nusch">
+<addon id="plugin.video.Nusch" version="1.3.2" name="Nusch" provider-name="Nusch">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.Nusch" />
@@ -71,8 +71,6 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<import addon="script.Nusch.metadata" />
 		<import addon="script.module.commoncore" />
 		<import addon="script.module.resolveurl" />
-		<import addon="script.module.lambdascrapers" />
-		<import addon="script.module.civitasscrapers" />
 		<import addon="script.module.nuschscrapers" />
 		<import addon="script.ccloudtv" />
 		<import addon="script.module.requests" />
@@ -103,7 +101,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>
 
-<addon id="script.module.Nusch" name="Nusch Module" version="1.4.0" provider-name="Nusch">
+<addon id="script.module.Nusch" name="Nusch Module" version="1.4.1" provider-name="Nusch">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.commoncore" />
