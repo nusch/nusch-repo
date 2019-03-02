@@ -63,7 +63,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="plugin.video.Nusch" version="1.3.3" name="Nusch" provider-name="Nusch">
+<addon id="plugin.video.Nusch" version="1.3.4" name="Nusch" provider-name="Nusch">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.Nusch" />
@@ -72,6 +72,8 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<import addon="script.module.commoncore" />
 		<import addon="script.module.resolveurl" />
 		<import addon="script.module.nuschscrapers" />
+		<import addon="service.watchdog" />
+		<import addon="script.module.trakt" />
 		<import addon="script.ccloudtv" />
 		<import addon="script.module.requests" />
 		<import addon="script.module.metahandler" version="1.0.0" />
@@ -167,6 +169,48 @@ This is a Non-profit resource, organized solely for educational purposes which i
         		<disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
         		<license>Beerware rev. 42</license>
 		</extension>
+</addon>
+
+<addon id="service.watchdog" name="Watchdog" version="0.9.7" provider-name="takoi">
+    <requires>
+        <import addon="xbmc.python" version="2.14.0"/>
+    </requires>
+    <extension point="xbmc.service" library="service.py" start="login"/>
+    <extension point="xbmc.python.script" library="script.py"/>
+    <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+        <language/>
+        <summary lang="en">Auto update library</summary>
+        <description lang="en">Watchdog will watch your media sources for changes and automatically update the library when new files are added or removed. Update is instant.</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <forum>http://forum.xbmc.org/showthread.php?tid=128896</forum>
+        <source>https://github.com/takoi/xbmc-addon-watchdog</source>
+    </extension>
+</addon>
+
+<addon id="script.module.trakt"
+       name="trakt.py"
+       version="3.0.0"
+       provider-name="Fuzeman, Razzeee">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="script.module.requests" version="2.12.4"/>
+    <import addon="script.module.six" version="1.9.0"/>
+    <import addon="script.module.arrow" version="0.6.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Python interface for the trakt.tv API</summary>
+    <description lang="en_GB">Packed for Kodi from https://github.com/fuzeman/trakt.py</description>
+    <platform>all</platform>
+    <language></language>
+    <license>MIT</license>
+    <forum></forum>
+    <website>https://github.com/fuzeman/trakt.py</website>
+    <source>https://github.com/Razzeee/script.module.trakt</source>
+    <email></email>
+  </extension>
 </addon>
 
 <addon id="repository.exodusredux" name="Exodus Redux Repo" version="0.0.7" provider-name="I-A-C">
