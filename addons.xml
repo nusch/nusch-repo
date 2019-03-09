@@ -103,7 +103,7 @@ This is a Non-profit resource, organized solely for educational purposes which i
 	</extension>
 </addon>
 
-<addon id="script.module.Nusch" name="Nusch Module" version="1.4.3" provider-name="Nusch">
+<addon id="script.module.Nusch" name="Nusch Module" version="1.4.4" provider-name="Nusch">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.commoncore" />
