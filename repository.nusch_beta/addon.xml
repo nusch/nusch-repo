@@ -1,0 +1,38 @@
+<addon id="repository.nusch_beta" name="[COLOR red]Nusch Beta Repo[/COLOR]" version="1.0.0" provider-name="Nusch">
+	<extension point="xbmc.addon.repository" name="Nusch">
+		<dir>
+			<info compressed="false">http://192.168.1.2/repo/addons.xml</info>
+			<checksum>http://192.168.1.2/repo/addons.xml.md5</checksum>
+			<datadir zip="true">http://192.168.1.2/repo/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/nusch/nusch-repo/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/nusch/nusch-repo/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/nusch/nusch-repo/master/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/I-A-C/zips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/I-A-C/zips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/I-A-C/zips/master/</datadir>
+		</dir>
+		<dir>
+			<info compressed="true">https://github.com/zach-morris/repository.zachmorris/raw/master/addons.xml</info>
+            <checksum>https://github.com/zach-morris/repository.zachmorris/raw/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/zach-morris/repository.zachmorris/master/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"></summary>
+		<description lang="en">The Official Beta Repo for Nusch</description>
+	</extension>
+</addon>

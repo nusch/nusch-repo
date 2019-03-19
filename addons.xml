@@ -13,6 +13,20 @@
 	</extension>
 </addon>
 
+<addon id="repository.nusch_beta" name="[COLOR red]Nusch Beta Repo[/COLOR]" version="1.0.0" provider-name="Nusch">
+	<extension point="xbmc.addon.repository" name="Nusch">
+		<dir>
+			<info compressed="false">http://192.168.1.2/repo/addons.xml</info>
+			<checksum>http://192.168.1.2/repo/addons.xml.md5</checksum>
+			<datadir zip="true">http://192.168.1.2/repo/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"></summary>
+		<description lang="en">The Official Beta Repo for Nusch</description>
+	</extension>
+</addon>
+
 <addon id="repository.ccloud" name="cCloud Repo" version="1.0" provider-name="Bane">
 	<extension point="xbmc.addon.repository" name="cCloud Addon Repository">
         <dir>
