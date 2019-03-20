@@ -8,9 +8,6 @@
 		<import addon="script.module.commoncore" />
 		<import addon="script.module.resolveurl" />
 		<import addon="script.module.nuschscrapers" />
-		<import addon="service.watchdog" />
-		<import addon="script.module.trakt" />
-		<import addon="script.ccloudtv" />
 		<import addon="script.module.requests" />
 		<import addon="script.module.metahandler" version="1.0.0" />
 	</requires>
